@@ -10,8 +10,8 @@
     <body>
         <div ng-controller="testController">
             <input type="text" name="username" id="username" ng-model="username" value="" placeholder="Enter username" />
-            <input type="text" name="post" id="post" value="" placeholder="message..." />
-            <input type="button" name="submit" id="submit" value="Submit" />
+            <input type="text" name="post" id="post" value="" ng-model="feedMessage"  placeholder="message..." />
+            <input type="button" name="submit" id="submit" ng-click=postFeed() value="Submit" />
             <input type="button" name="getFeed" id="getFeed" ng-click=getFeed() value="Get Feed Messages" />
             <p>{{feed}}</p>
         </div>
