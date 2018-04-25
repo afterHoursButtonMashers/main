@@ -1,5 +1,7 @@
 # custom things to ignore
-src/python/
+# 
+# decided this should be checked in
+#src/python/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
